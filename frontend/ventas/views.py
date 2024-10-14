@@ -38,6 +38,8 @@ def resumen_ventas(request):
     response = requests.get('http://localhost:5000/resumen-ventas')
     if response.status_code == 200:
         xml_resumen = response.text
+        print("XML Resumen que se está pasando a la plantilla:")
+        print(xml_resumen)  # Imprimir el XML para verificar su contenido
         return render(request, 'ventas/resumen.html', {'xml_resumen': xml_resumen})
     else:
         error = 'No se pudo obtener el resumen de ventas.'

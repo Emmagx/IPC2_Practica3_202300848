@@ -30,17 +30,17 @@ def upload_ventas():
             return jsonify({"error": f"El archivo XML no es válido: {str(e)}"}), 400
 
         procesar_ventas(xml_data, departamentos)
-
         xml_resumen = generar_xml_resumen(departamentos)
         output_file_path = os.path.join(OUTPUT_DIR, 'resumen_ventas.xml')
+        
+        # Abrir el archivo en modo 'w' para vaciar el contenido antes de escribir nuevos datos
         with open(output_file_path, 'w', encoding='utf-8') as f:
-            f.write(xml_resumen)
+            f.write('')  # Esto vacía el archivo
+            f.write(xml_resumen)  # Escribe los nuevos datos en el archivo vacío
 
         return jsonify({"message": "Archivo procesado exitosamente"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
 
 @app.route('/resumen-ventas', methods=['GET'])
 def resumen_ventas():
@@ -49,10 +49,13 @@ def resumen_ventas():
         output_file_path = os.path.join(OUTPUT_DIR, 'resumen_ventas.xml')
         with open(output_file_path, 'r', encoding='utf-8') as f:
             xml_resumen = f.read()
-
+            print("XML de Resumen generado:")
+            print(xml_resumen)
         return app.response_class(xml_resumen, content_type='application/xml')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
