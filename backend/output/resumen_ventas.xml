@@ -2,49 +2,49 @@
 <resultados>
     <departamentos>
         <Guatemala>
-            <cantidadVentas>5</cantidadVentas>
+            <cantidadVentas>20</cantidadVentas>
         </Guatemala>
         <Chimaltenango>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Chimaltenango>
         <Escuintla>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Escuintla>
         <SantaRosa>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </SantaRosa>
         <Quetzaltenango>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Quetzaltenango>
         <Retalhuleu>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Retalhuleu>
         <SanMarcos>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </SanMarcos>
         <Huehuetenango>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Huehuetenango>
         <BajaVerapaz>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </BajaVerapaz>
         <AltaVerapaz>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </AltaVerapaz>
         <Izabal>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Izabal>
         <Zacapa>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Zacapa>
         <Chiquimula>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Chiquimula>
         <Jalapa>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Jalapa>
         <Jutiapa>
-            <cantidadVentas>2</cantidadVentas>
+            <cantidadVentas>8</cantidadVentas>
         </Jutiapa>
     </departamentos>
 </resultados>

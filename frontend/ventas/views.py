@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .forms import UploadFileForm
 import requests
+import xml.etree.ElementTree as ET
+import json 
 
 def upload_file(request):
     if request.method == 'POST':
@@ -50,7 +52,11 @@ def grafico(request):
     if response.status_code == 200:
         xml_resumen = response.text
         datos_procesados = procesar_datos_xml(xml_resumen)
-        return render(request, 'ventas/grafico.html', {'data': datos_procesados})
+
+        # Convertir los datos a formato JSON
+        datos_json = json.dumps(datos_procesados)
+
+        return render(request, 'ventas/grafico.html', {'data': datos_json})
     else:
         error = 'No se pudo obtener el resumen de ventas.'
         return render(request, 'ventas/grafico.html', {'error': error})
@@ -60,3 +66,29 @@ def datos_estudiante(request):
 
 def base(request):
     return render(request, 'ventas/home.html')
+
+def procesar_datos_xml(xml_resumen):
+    datos = {}
+    try:
+        # Parsear el XML
+        root = ET.fromstring(xml_resumen)
+
+        # Encontrar el nodo de departamentos
+        departamentos = root.find('departamentos')
+        if departamentos is None:
+            raise ValueError("No se encontraron los departamentos en el XML")
+
+        # Iterar sobre los elementos de cada departamento
+        for departamento in departamentos:
+            nombre = departamento.tag  # El nombre del departamento es el nombre de la etiqueta
+            ventas = int(departamento.find('cantidadVentas').text)
+
+            # Agregar al diccionario
+            datos[nombre] = ventas
+
+    except ET.ParseError as e:
+        print(f"Error al parsear el XML: {e}")
+    except Exception as e:
+        print(f"Error procesando los datos del XML: {e}")
+
+    return datos
