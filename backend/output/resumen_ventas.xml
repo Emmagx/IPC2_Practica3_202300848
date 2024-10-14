@@ -2,49 +2,67 @@
 <resultados>
     <departamentos>
         <Guatemala>
-            <cantidadVentas>20</cantidadVentas>
+            <cantidadVentas>5</cantidadVentas>
         </Guatemala>
+        <Sacatepequez>
+            <cantidadVentas>2</cantidadVentas>
+        </Sacatepequez>
         <Chimaltenango>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Chimaltenango>
         <Escuintla>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Escuintla>
         <SantaRosa>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </SantaRosa>
+        <Solola>
+            <cantidadVentas>2</cantidadVentas>
+        </Solola>
+        <Totonicapan>
+            <cantidadVentas>2</cantidadVentas>
+        </Totonicapan>
         <Quetzaltenango>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Quetzaltenango>
+        <Suchitepequez>
+            <cantidadVentas>2</cantidadVentas>
+        </Suchitepequez>
         <Retalhuleu>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Retalhuleu>
         <SanMarcos>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </SanMarcos>
         <Huehuetenango>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Huehuetenango>
+        <Quiche>
+            <cantidadVentas>2</cantidadVentas>
+        </Quiche>
         <BajaVerapaz>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </BajaVerapaz>
         <AltaVerapaz>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </AltaVerapaz>
+        <Peten>
+            <cantidadVentas>3</cantidadVentas>
+        </Peten>
         <Izabal>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Izabal>
         <Zacapa>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Zacapa>
         <Chiquimula>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Chiquimula>
         <Jalapa>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Jalapa>
         <Jutiapa>
-            <cantidadVentas>8</cantidadVentas>
+            <cantidadVentas>2</cantidadVentas>
         </Jutiapa>
     </departamentos>
 </resultados>

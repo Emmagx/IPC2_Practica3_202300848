@@ -1,27 +1,26 @@
 {
-    "departamentos": [
+  "departamentos": [
       "Guatemala",
-      "Sacatepéquez",
+      "Sacatepequez",
       "Chimaltenango",
       "Escuintla",
       "Santa Rosa",
-      "Sololá",
-      "Totonicapán",
+      "Solola",
+      "Totonicapan",
       "Quetzaltenango",
-      "Suchitepéquez",
+      "Suchitepequez",
       "Retalhuleu",
       "San Marcos",
       "Huehuetenango",
-      "Quiché",
+      "Quiche",
       "Baja Verapaz",
       "Alta Verapaz",
-      "Petén",
+      "Peten",
       "Izabal",
       "Zacapa",
       "Chiquimula",
       "Jalapa",
       "Jutiapa",
       "El Progreso"
-    ]
-  }
-  
+  ]
+}

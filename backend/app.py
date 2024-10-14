@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 from utils import cargar_departamentos, procesar_ventas, generar_xml_resumen
 import xml.etree.ElementTree as ET
 import os
+import unicodedata
 
 app = Flask(__name__)
 departamentos = cargar_departamentos()
