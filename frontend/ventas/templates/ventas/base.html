@@ -1,0 +1,30 @@
+<!-- ventas/templates/ventas/base.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Autos GT</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">Super Autos GT</div>
+            <ul class="navbar-menu">
+                <li><a href="{% url 'upload_file' %}">Cargar Datos</a></li>
+                <li><a href="{% url 'resumen_ventas' %}">Procesar Datos</a></li>
+                <li><a href="{% url 'grafico' %}">Ver gráfico</a></li>
+                <li><a href="{% url 'datos_estudiante' %}">Datos del Estudiante</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

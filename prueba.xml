@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resumen>
+    <ListadoVentas>
+        <Venta departamento="Guatemala">
+            <Fecha>15/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Petén">
+            <Fecha>15/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="San Marcos">
+            <Fecha>16/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Guatemala">
+            <Fecha>16/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Alta Verapaz">
+            <Fecha>17/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Baja Verapaz">
+            <Fecha>17/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Chiquimula">
+            <Fecha>18/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Chimaltenango">
+            <Fecha>18/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Escuintla">
+            <Fecha>19/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Huehuetenango">
+            <Fecha>19/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Izabal">
+            <Fecha>20/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Jalapa">
+            <Fecha>20/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Jutiapa">
+            <Fecha>21/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Quetzaltenango">
+            <Fecha>21/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Quiché">
+            <Fecha>22/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Retalhuleu">
+            <Fecha>22/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Sacatepéquez">
+            <Fecha>23/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Santa Rosa">
+            <Fecha>23/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Sololá">
+            <Fecha>24/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Suchitepéquez">
+            <Fecha>24/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Totonicapán">
+            <Fecha>25/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Zacapa">
+            <Fecha>25/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Guatemala">
+            <Fecha>26/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Petén">
+            <Fecha>26/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="San Marcos">
+            <Fecha>27/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Guatemala">
+            <Fecha>27/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Alta Verapaz">
+            <Fecha>28/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Baja Verapaz">
+            <Fecha>28/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Chiquimula">
+            <Fecha>29/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Chimaltenango">
+            <Fecha>29/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Escuintla">
+            <Fecha>30/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Huehuetenango">
+            <Fecha>30/09/2024</Fecha>
+        </Venta>
+        <Venta departamento="Izabal">
+            <Fecha>01/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Jalapa">
+            <Fecha>01/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Jutiapa">
+            <Fecha>02/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Quetzaltenango">
+            <Fecha>02/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Quiché">
+            <Fecha>03/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Retalhuleu">
+            <Fecha>03/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Sacatepéquez">
+            <Fecha>04/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Santa Rosa">
+            <Fecha>04/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Sololá">
+            <Fecha>05/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Suchitepéquez">
+            <Fecha>05/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Totonicapán">
+            <Fecha>06/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Zacapa">
+            <Fecha>06/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Guatemala">
+            <Fecha>07/10/2024</Fecha>
+        </Venta>
+        <Venta departamento="Petén">
+            <Fecha>07/10/2024</Fecha>
+        </Venta>
+    </ListadoVentas>
+</Resumen>
