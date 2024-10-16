@@ -1,0 +1,9 @@
+{% extends 'ventas/base.html' %}
+{% block content %}
+    <h2>Cargar Archivo de Ventas (XML)</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Subir Archivo</button>
+    </form>
+{% endblock %}
